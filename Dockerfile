@@ -19,7 +19,6 @@ RUN pip install --no-cache-dir -r requirements.txt
 # Copy source code
 COPY src/ ./src/
 COPY config.json .
-COPY LICENSE .
 COPY README.md .
 
 # Create reports directory
